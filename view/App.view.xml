@@ -3,4 +3,17 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 
+    <FlexBox class="contentArea">
+        <VBox>
+            <HBox width="100%">
+                <HBox><Label text="Label"></Label></HBox>
+                <HBox><Input></Input></HBox>
+                <HBox><Button text="Append page snapshot" press="addImage"></Button></HBox>
+            </HBox>
+            <HBox><Image src="imageFromPixabay/hot-air-1373167_960_720.jpg"></Image></HBox>
+            <HBox><Image src="imageFromPixabay/stones-1372677_960_720.jpg"></Image></HBox>
+            <HBox><Image src="imageFromPixabay/maine-551993_960_720.jpg"></Image></HBox>
+        </VBox>
+    </FlexBox>
+
 </mvc:View>
