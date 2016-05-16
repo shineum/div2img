@@ -8,3 +8,12 @@
 https://pixabay.com/static/uploads/photo/2016/05/05/02/35/hot-air-1373167_960_720.jpg
 https://pixabay.com/static/uploads/photo/2016/05/04/19/39/stones-1372677_960_720.jpg
 https://pixabay.com/static/uploads/photo/2014/11/30/19/08/maine-551993_960_720.jpg
+
+# Usage
+```javascript
+div2img(document.body.innerHTML, 1200, 2400, function(pImgData) {
+    var tNewDiv = document.createElement('div');
+    document.body.appendChild(tNewDiv);
+    tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
+});
+```
