@@ -14,7 +14,7 @@ sap.ui.define([
                 var tNewDiv = document.createElement('div');
                 document.body.appendChild(tNewDiv);
                 tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
-            });
+            }, 0, 0);
         }
 
     });

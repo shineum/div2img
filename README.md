@@ -17,3 +17,10 @@ div2img(document.body.innerHTML, 1200, 2400, function(pImgData) {
     tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
 });
 ```
+
+# Release History
+- 0.0.1b
+    Add offset parameters so that getting partial images easily
+
+- 0.0.1
+    Release initial version
