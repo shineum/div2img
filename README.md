@@ -15,7 +15,7 @@ div2img(document.body.innerHTML, 1200, 2400, function(pImgData) {
     var tNewDiv = document.createElement('div');
     document.body.appendChild(tNewDiv);
     tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
-});
+}, 0, 0);
 ```
 
 # Release History
