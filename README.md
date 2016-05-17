@@ -11,14 +11,17 @@ https://pixabay.com/static/uploads/photo/2014/11/30/19/08/maine-551993_960_720.j
 
 # Usage
 ```javascript
-div2img(document.body.innerHTML, 1200, 2400, function(pImgData) {
+div2img(document.body.innerHTML, function(pImgData) {
     var tNewDiv = document.createElement('div');
     document.body.appendChild(tNewDiv);
     tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
-}, 0, 0);
+}, 1200, 2400, 0, 0);
 ```
 
 # Release History
+- 0.0.1c
+    Changed the order of parameters
+
 - 0.0.1b
     Add offset parameters so that getting partial images easily
 
