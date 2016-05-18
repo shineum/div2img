@@ -10,7 +10,7 @@ sap.ui.define([
         }
 
         , addImage: function() {
-            div2img(document.body.innerHTML, function(pImgData) {
+            div2img(document.body, function(pImgData) {
                 var tNewDiv = document.createElement('div');
                 document.body.appendChild(tNewDiv);
                 tNewDiv.innerHTML = "<img src='" + pImgData + "'>";
