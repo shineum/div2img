@@ -19,6 +19,10 @@ div2img(document.body, function(pImgData) {
 ```
 
 # Release History
+- 0.0.1e
+    [Bug fix] removed empty blank area when user set offsets
+    Capture div area without copying innerHTML content
+
 - 0.0.1d
     Changed parameter to accept div element instead of inner content
 
