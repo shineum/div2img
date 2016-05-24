@@ -19,6 +19,9 @@ div2img(document.body, function(pImgData) {
 ```
 
 # Release History
+- 0.0.1f
+    Update options to render image without showing it on browser
+
 - 0.0.1e
     [Bug fix] removed empty blank area when user set offsets
     Capture div area without copying innerHTML content
